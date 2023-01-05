@@ -4,8 +4,7 @@ import App from "./App";
 import "./index.css";
 import { AuthContextProvider } from "./contexts/authContext";
 import { DataContextProvider } from "./contexts/dataContext";
-// import { BrowserRouter as Router } from "react-router-dom";
-import { Router } from 'vite-plugin-react-router'
+import { BrowserRouter as Router } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

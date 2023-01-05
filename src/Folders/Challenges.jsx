@@ -409,7 +409,7 @@ function Links() {
                   <Modal isOpen={isOpen1} onClose={() => setIsOpen1(false)}>
                     <ModalOverlay />
                     <ModalContent>
-                      <ModalHeader>Task 1</ModalHeader>
+                      <ModalHeader>Task {challenge.id} </ModalHeader>
                       <ModalCloseButton />
                       <ModalBody>
                         <Textarea />

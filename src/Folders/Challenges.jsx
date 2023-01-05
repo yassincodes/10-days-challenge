@@ -354,7 +354,7 @@ function Links() {
     return (
       <div className="App">
         <div className="twitter_header_container">
-          <div className="website_header">the 10 days challenge</div>
+          <div className="website_header">the 7 days challenge</div>
         </div>
         <div className="routes-section">
           <Accordion allowMultiple>

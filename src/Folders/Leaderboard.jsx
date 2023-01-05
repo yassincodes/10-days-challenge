@@ -28,7 +28,7 @@ function Leaderboard() {
           </div>
         </div>
         <div>
-          <div>🥈 silver medal "finished 9 tasks"</div>
+          <div>🥈 silver medal "finished 6 tasks"</div>
           <div className="no_winners_yet_container">
             <motion.div
               initial={{ x: 0 }}
@@ -41,7 +41,7 @@ function Leaderboard() {
           </div>
         </div>
         <div>
-          <div>🥉 bronze medal "finished 8 task"</div>
+          <div>🥉 bronze medal "finished 5 task"</div>
           <div className="no_winners_yet_container">
             <motion.div
               initial={{ x: 0 }}
@@ -59,7 +59,7 @@ function Leaderboard() {
             {usernames &&
               usernames.map((username) => {
                 return (
-                  <div style={{ margin: "4px" }}>
+                  <div style={{ margin: "4px", display: "flex" }}>
                     <Avatar
                       size="lg"
                       name={username.username}

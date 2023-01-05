@@ -12,8 +12,8 @@ function Home() {
   // there will be a function that will
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "25px" }}>
-      <div className="website_font">the 15 days challenge</div>
-      <img src="https://media2.giphy.com/media/kmUvauX8TMWg0OsqKW/giphy.gif?cid=790b76116a07d5788fee383caf2c14c6be2adb7def34bb54&rid=giphy.gif&ct=g" alt="GIF" />
+      <div className="website_font">the 7 days challenge</div>
+      <img height="40vh" src="https://media2.giphy.com/media/kmUvauX8TMWg0OsqKW/giphy.gif?cid=790b76116a07d5788fee383caf2c14c6be2adb7def34bb54&rid=giphy.gif&ct=g" alt="GIF" />
       <div>
         Welcome to our website, where you can participate in a variety of
         challenges designed to help protect the environment. From reducing your
@@ -24,11 +24,11 @@ function Home() {
 
       {appData && appData[0].uid ? (
         <Link to="/challenges">
-          <Button>see challenges</Button>
+          <Button colorScheme="green" style={{marginTop: "30px", marginBottom: "30px"}}>see challenges</Button>
         </Link>
       ) : (
         <Link to="/challenges">
-          <Button colorScheme="blue" onClick={signInWithGoogle}>
+          <Button colorScheme="green" style={{marginTop: "30px", marginBottom: "30px"}} onClick={signInWithGoogle}>
             Log in with google
           </Button>
         </Link>

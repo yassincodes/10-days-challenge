@@ -25,6 +25,14 @@
     display: none;
   }
   
+  .website_font {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+  }
+
   .routes-selector-section {
     width: 30%;
     display: flex;
@@ -94,7 +102,6 @@
       bottom: 0;
       background: white;
       border-top: 0.5px solid #c5c5c5;
-      margin-bottom: 20px;
     }
   
     .routes-section {

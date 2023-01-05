@@ -169,6 +169,7 @@ function Links() {
       {
         id: 4,
         duration: 0.8,
+        emoji: "📚",
         color: "#457b9d",
         english: (
           <div>
